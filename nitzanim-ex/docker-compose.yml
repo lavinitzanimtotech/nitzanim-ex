@@ -1,0 +1,49 @@
+version: '3.3'
+
+services:
+  drupal:
+    image: drupal:latest
+    ports:
+      - 80:80
+    volumes:
+      - drupal_modules:/var/www/html/modules
+      - drupal_profiles:/var/www/html/profiles
+      - drupal_themes:/var/www/html/themes
+      - drupal_sites:/var/www/html/sites
+    restart: always
+    networks:
+      - drupal
+
+  postgres:
+    image: postgres:10
+    environment:
+      POSTGRES_PASSWORD: password #lol idc
+    volumes:
+        - db_data:/var/lib/postgresql/data
+    restart: always
+    networks:
+      - drupal
+  
+  flask:
+    image: myflaskapp:latest
+    environment:
+      FLASK_APP: flaskr
+      FLASK_ENV: development
+    networks:
+      - drupal
+    ports:
+      - 5000:5000
+      
+
+
+networks:
+  drupal:
+    driver: bridge
+
+volumes:
+  drupal_modules:
+  drupal_profiles:
+  drupal_themes:
+  drupal_sites:
+  db_data:
+

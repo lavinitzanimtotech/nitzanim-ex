@@ -1,0 +1,281 @@
+    1  ll
+    2  mkdir git
+    3  sudo apt install
+    4  sudo yum update
+    5  sudo yum install git
+    6  git --version
+    7  sudo dnf -y install dnf-plugins-core
+    8  sudo yum install docker
+    9  sudo yum install python3-pip
+   10  sudo pip3 install docker-compose
+   11  sudo systemctl enable docker.service
+   12  sudo systemctl start docker.service
+   13  sudo systemctl status docker
+   14  sudo systemctl status docker -l
+   15  echo "$PATH"
+   16  ll
+   17  cd git
+   18  mkdir nitzanim
+   19  cd nitzanim
+   20  git init
+   21  git config --global user.name lavinitzanimtotech
+   22  git config --global user.email "lavi.glassman@nitzanim.tech"
+   23  git config --global user.name "lavinitzanimtotech"
+   24  git remote add origin https://github.com/lavinitzanimtotech/nitzanim-ex.git
+   25  git pull origin
+   26  git branch -a
+   27  git checkout develop 
+   28  git checkout feature/sol 
+   29  git branch -a
+   30  git clone https://github.com/lidorg-dev/nitzanim-ex.git
+   31  ll
+   32  cd nitzanim-ex/
+   33  ll
+   34  git commit -m "please work"
+   35  git status
+   36  git bramch
+   37  git branch
+   38  git branch -a
+   39  git pull origin
+   40  git ll
+   41  ll
+   42  cd ..
+   43  git branch
+   44  ll
+   45  git commit
+   46  git add -a
+   47  git add -A
+   48  git commit 
+   49  ll
+   50  git status
+   51  git branch
+   52  git merge
+   53  git status --short
+   54  git merge feature/sol 
+   55  ll
+   56  git merge feature/sol 
+   57  git commit 
+   58  git push 
+   59  ll
+   60  ll -a
+   61  sudo rm .git
+   62  sudo rmdir .git
+   63  sudo rmdir -R .git
+   64  sudo rmdir -r .git
+   65  sudo rm -R .git
+   66  git rm --cache client_folder
+   67  git init
+   68  git rm --cache client_folder
+   69  git add -a
+   70  git add -A
+   71  git commit 
+   72  git push 
+   73  git remote add origin https://github.com/lavinitzanimtotech/nitzanim-ex.git
+   74  git push 
+   75  git push --set-upstream origin master
+   76  git branch -a
+   77  git init
+   78  git branch
+   79  git remote add origin https://github.com/lavinitzanimtotech/nitzanim-ex.git
+   80  git pull https://github.com/lavinitzanimtotech/nitzanim-ex.git
+   81  ll
+   82  git branch -a
+   83  git branch -r
+   84  git pull https://github.com/lavinitzanimtotech/nitzanim-ex.git
+   85  git config pull.rebase true 
+   86  git pull https://github.com/lavinitzanimtotech/nitzanim-ex.git
+   87  git branch -r
+   88  git branch -a
+   89  git init
+   90  git pull https://github.com/lavinitzanimtotech/nitzanim-ex.git
+   91  git init
+   92  ll
+   93  rm -R nitzanim-ex/
+   94  sudo rm -R nitzanim-ex/
+   95  git init
+   96  ll
+   97  git rm LICENSE 
+   98  ll
+   99  git config 
+  100  git config --global user.name
+  101  git status
+  102  git pull origin
+  103  git config pull.rebase false
+  104  git pull origin
+  105  git branch -a
+  106  git checkout develop 
+  107  ll
+  108  git pull 
+  109  git branch
+  110  git ll
+  111  git --help
+  112  git fetch
+  113  git merge
+  114  git checkout remotes/origin/feature/sol
+  115  git switch -
+  116  ll
+  117  git pull
+  118  cd ..
+  119  ll
+  120  sudo rm -R nitzanim/
+  121  mkdir nitzanim
+  122  cd nitzanim/
+  123  git init
+  124  git branch 
+  125  git branch -a
+  126  git config --global init.defaultBranch main
+  127  git config --global user.name 
+  128  ll --a
+  129  ll -a
+  130  git clone origin
+  131  git clone https://github.com/lavinitzanimtotech/nitzanim-ex.git
+  132  ll
+  133  cd nitzanim-ex/
+  134  ll
+  135  git pull https://github.com/lavinitzanimtotech/nitzanim-ex.git
+  136  ll
+  137  git branch -a
+  138  git branch origin/develop
+  139  ll
+  140  git branch -a
+  141  git clone https://github.com/lidorg-dev/nitzanim-ex.git
+  142  ll
+  143  git push --set-upstream origin
+  144  git add -a
+  145  git add -A
+  146  git submodule add https://github.com/lavinitzanimtotech/nitzanim-ex.git nitzanim-ex/
+  147  git submodule add https://github.com/lidorg-dev/nitzanim-ex.git nitzanim-ex/
+  148  git rm --cached nitzanim-ex
+  149  git rm --cached nitzanim-ex -f
+  150  git submodule add https://github.com/lidorg-dev/nitzanim-ex.git nitzanim-ex/
+  151  ll
+  152  git branch 
+  153  git switch origin/develop 
+  154  ll
+  155  git commit 
+  156  git push
+  157  git push --set-upstream origin origin/develop
+  158  curl localhost
+  159  curl http://0.0.0.0:5000/
+  160  ll
+  161  cd git
+  162  ll
+  163  cd nitzanim/
+  164  git branch
+  165  ll
+  166  ll nitzanim-ex/
+  167  git branch 
+  168  cd nitzanim-ex/
+  169  ll
+  170  cd nitzanim-ex/
+  171  pwd
+  172  ll
+  173  cd ..
+  174  ll 
+  175  mv nitzanim-ex/ ../
+  176  mv -r nitzanim-ex/ ../
+  177  mv -R nitzanim-ex/ ../
+  178  mv -r nitzanim-ex ../
+  179  cp -r nitzanim-ex ../nitzanim-ex
+  180  cp -r nitzanim-ex ../nitzanim-ex-1
+  181  cd ..
+  182  ll
+  183  mv -r nitzanim-ex ../
+  184  cp -r nitzanim-ex ../nitzanim-ex-1
+  185  cd ..
+  186  ll
+  187  cd nitzanim-ex-1/
+  188  ll
+  189  cd nitzanim-ex/
+  190  ll
+  191  cd .. && cd ..
+  192  ll
+  193  rm -R nitzanim
+  194  sudo rm -R nitzanim
+  195  ll
+  196  cd nitzanim-ex-1/
+  197  ll
+  198  cd nitzanim-ex/
+  199  ll
+  200  git branch
+  201  git branch -a
+  202  git 
+  203  cd ..
+  204  ll
+  205  git branch 
+  206  ll
+  207  git branch -a
+  208  git switch feature/sol 
+  209  ll
+  210  cd nitzanim-ex/ 
+  211  ll
+  212  git branch -a
+  213  cd ..
+  214  git branch -a
+  215  python -v
+  216  python --version
+  217  python3.7 --version
+  218  python3 --version
+  219  sudo amazon-linux-extras install python3.8
+  220  python3.8 --version
+  221  python 3.8
+  222  python3.8
+  223  python3.8 --version
+  224  export FLASK_APP=flaskr
+  225  export FLASK_ENV=development
+  226  ll
+  227  whereis src
+  228  sudo cp nitzanim-ex/ usr/local/src/app
+  229  cd usr/local/src/app
+  230  sudo mkdir /usr/local/src/app && sudo cp nitzanim-ex/ usr/local/src/app
+  231  cd usr/local/src/app
+  232  cd usr/local/src
+  233  sudo mkdir /usr/local/src/app && sudo cp nitzanim-ex/ /usr/local/src/app
+  234  sudo rm -r /usr/local/src/app 
+  235  sudo rm -r usr/local/src/app 
+  236  sudo mkdir /usr/local/src/app && sudo cp nitzanim-ex/ /usr/local/src/app
+  237  cd /usr/local/src/app
+  238  ll
+  239  cd -
+  240  sudo cp -r /home/ec2-user/git/nitzanim-ex-1 /usr/local/src/app
+  241  cd /usr/local/src/app
+  242  ll
+  243  cd nitzanim-ex-1/
+  244  ll
+  245  pwd
+  246  cd nitzanim-ex/
+  247  ll
+  248  pwd
+  249  pwd && ll
+  250  pip install --editable 
+  251  sudo apt install pip
+  252  sudo yum install pip
+  253  flask init-db
+  254  pip install --editable
+  255  pip install --editable .
+  256  ll
+  257  sudo pip install --editable .
+  258  flask init-db
+  259  sudo flask init-db
+  260  sudo flask --help
+  261  flask init -db
+  262  flask run --host=0.0.0.0
+  263  exit
+  264  clear
+  265  flask run --host=0.0.0.0
+  266  flask init -db
+  267  flask init db
+  268  history
+  269  export FLASK_APP=flaskr
+  270  export FLASK_ENV=development
+  271  cd nitzanim-ex/
+  272  ll
+  273  cd git/nitzanim-ex-1/
+  274  git branch 
+  275  ll
+  276  flask run
+  277  clear
+  278  history > error.txt
+  279  mv error.txt /home/ec2-user/error.txt 
+  280  flask run --host=0.0.0.0
+  281  history > error.txt
